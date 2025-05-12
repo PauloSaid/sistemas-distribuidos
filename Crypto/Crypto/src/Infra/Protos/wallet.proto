@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "Crypto";
+
+package wallet;
+
+service Wallet {
+	rpc GetWallet(GetWalletRequest) returns (GetWalletResponse);
+	rpc CreateWallet(CreateWalletRequest) returns (CreateWalletResponse);
+}
+
+message GetWalletResponse {
+	string message = 1;
+}
+
+message GetWalletRequest {
+	
+}
+
+message CreateWalletResponse {
+	string message = 1;
+}
+
+message CreateWalletRequest {
+
+}

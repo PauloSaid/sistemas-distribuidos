@@ -1,0 +1,2 @@
+obj\Release\net9.0\src\Infra\Protos/Wallet.cs \
+obj\Release\net9.0\src\Infra\Protos/WalletGrpc.cs: src/Infra/Protos/wallet.proto

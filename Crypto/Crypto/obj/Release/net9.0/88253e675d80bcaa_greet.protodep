@@ -1,0 +1,2 @@
+obj\Release\net9.0\src\Infra\Protos/Greet.cs \
+obj\Release\net9.0\src\Infra\Protos/GreetGrpc.cs: src/Infra/Protos/greet.proto
