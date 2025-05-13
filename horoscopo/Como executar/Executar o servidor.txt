@@ -1,4 +1,0 @@
-dotnet run
-
-A API estará disponível em: http://localhost:5000/api/horoscope/NICKNAME/SIGN/PLAN
-
