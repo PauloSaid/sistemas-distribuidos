@@ -1,0 +1,6 @@
+@HoroscopeServer_HostAddress = http://localhost:5184
+
+GET {{HoroscopeServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

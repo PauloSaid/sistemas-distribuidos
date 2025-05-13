@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoroscopeServer", "HoroscopeServer\HoroscopeServer.csproj", "{FDAF1487-898A-4F80-9A13-DD96ACE548B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDAF1487-898A-4F80-9A13-DD96ACE548B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAF1487-898A-4F80-9A13-DD96ACE548B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAF1487-898A-4F80-9A13-DD96ACE548B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAF1487-898A-4F80-9A13-DD96ACE548B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D28E1B9C-8B73-47E9-AF58-36F744B3993D}
+	EndGlobalSection
+EndGlobal
