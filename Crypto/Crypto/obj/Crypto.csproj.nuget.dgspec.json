@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DevC\\Crypto\\Crypto\\Crypto.csproj": {}
+    "C:\\DevC\\sistemas-distribuidos-main\\Crypto\\Crypto\\Crypto.csproj": {}
   },
   "projects": {
-    "C:\\DevC\\Crypto\\Crypto\\Crypto.csproj": {
+    "C:\\DevC\\sistemas-distribuidos-main\\Crypto\\Crypto\\Crypto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DevC\\Crypto\\Crypto\\Crypto.csproj",
+        "projectUniqueName": "C:\\DevC\\sistemas-distribuidos-main\\Crypto\\Crypto\\Crypto.csproj",
         "projectName": "Crypto",
-        "projectPath": "C:\\DevC\\Crypto\\Crypto\\Crypto.csproj",
+        "projectPath": "C:\\DevC\\sistemas-distribuidos-main\\Crypto\\Crypto\\Crypto.csproj",
         "packagesPath": "C:\\Users\\alunodev04\\.nuget\\packages\\",
-        "outputPath": "C:\\DevC\\Crypto\\Crypto\\obj\\",
+        "outputPath": "C:\\DevC\\sistemas-distribuidos-main\\Crypto\\Crypto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

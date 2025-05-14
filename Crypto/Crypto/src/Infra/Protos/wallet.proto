@@ -4,23 +4,48 @@ option csharp_namespace = "Crypto";
 
 package wallet;
 
-service Wallet {
-	rpc GetWallet(GetWalletRequest) returns (GetWalletResponse);
-	rpc CreateWallet(CreateWalletRequest) returns (CreateWalletResponse);
+message Owner {
+	string id = 1;
+	string name = 2;
 }
 
-message GetWalletResponse {
-	string message = 1;
+message CryptoType {
+	string id = 1;
+	string name = 2;
+	string currencyValue = 3;
+}
+
+message WalletRequest {
+	string id = 1;
+	Owner owner = 2;
+	double balance = 3;
+	repeated CryptoType cryptos = 4;
+}
+
+message WalletResponse {
+	string id = 1;
+	Owner owner = 2;
+	double balance = 3;
+	repeated CryptoType cryptos = 4;
 }
 
 message GetWalletRequest {
-	
+	string id = 1;
 }
 
-message CreateWalletResponse {
-	string message = 1;
+message GetWalletResponse {
+	WalletResponse wallet = 1;
 }
 
 message CreateWalletRequest {
+	WalletRequest wallet = 1;
+}
 
+message CreateWalletResponse {
+	WalletResponse wallet = 1;
+}
+
+service Wallet {
+	rpc GetWallet(GetWalletRequest) returns (GetWalletResponse);
+	rpc CreateWallet(CreateWalletRequest) returns (CreateWalletResponse);
 }
