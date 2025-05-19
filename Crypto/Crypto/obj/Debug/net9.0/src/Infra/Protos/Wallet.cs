@@ -25,27 +25,28 @@ namespace Crypto {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ch1zcmMvSW5mcmEvUHJvdG9zL3dhbGxldC5wcm90bxIGd2FsbGV0IiEKBU93",
-            "bmVyEgoKAmlkGAEgASgJEgwKBG5hbWUYAiABKAkiPQoKQ3J5cHRvVHlwZRIK",
+            "bmVyEgoKAmlkGAEgASgJEgwKBG5hbWUYAiABKAkiTQoKQ3J5cHRvVHlwZRIK",
             "CgJpZBgBIAEoCRIMCgRuYW1lGAIgASgJEhUKDWN1cnJlbmN5VmFsdWUYAyAB",
-            "KAkibwoNV2FsbGV0UmVxdWVzdBIKCgJpZBgBIAEoCRIcCgVvd25lchgCIAEo",
-            "CzINLndhbGxldC5Pd25lchIPCgdiYWxhbmNlGAMgASgBEiMKB2NyeXB0b3MY",
-            "BCADKAsyEi53YWxsZXQuQ3J5cHRvVHlwZSJwCg5XYWxsZXRSZXNwb25zZRIK",
-            "CgJpZBgBIAEoCRIcCgVvd25lchgCIAEoCzINLndhbGxldC5Pd25lchIPCgdi",
-            "YWxhbmNlGAMgASgBEiMKB2NyeXB0b3MYBCADKAsyEi53YWxsZXQuQ3J5cHRv",
-            "VHlwZSIeChBHZXRXYWxsZXRSZXF1ZXN0EgoKAmlkGAEgASgJIjsKEUdldFdh",
-            "bGxldFJlc3BvbnNlEiYKBndhbGxldBgBIAEoCzIWLndhbGxldC5XYWxsZXRS",
-            "ZXNwb25zZSI8ChNDcmVhdGVXYWxsZXRSZXF1ZXN0EiUKBndhbGxldBgBIAEo",
-            "CzIVLndhbGxldC5XYWxsZXRSZXF1ZXN0Ij4KFENyZWF0ZVdhbGxldFJlc3Bv",
-            "bnNlEiYKBndhbGxldBgBIAEoCzIWLndhbGxldC5XYWxsZXRSZXNwb25zZTKV",
-            "AQoGV2FsbGV0EkAKCUdldFdhbGxldBIYLndhbGxldC5HZXRXYWxsZXRSZXF1",
-            "ZXN0Ghkud2FsbGV0LkdldFdhbGxldFJlc3BvbnNlEkkKDENyZWF0ZVdhbGxl",
-            "dBIbLndhbGxldC5DcmVhdGVXYWxsZXRSZXF1ZXN0Ghwud2FsbGV0LkNyZWF0",
-            "ZVdhbGxldFJlc3BvbnNlQgmqAgZDcnlwdG9iBnByb3RvMw=="));
+            "KAkSDgoGYW1vdW50GAQgASgJIm8KDVdhbGxldFJlcXVlc3QSCgoCaWQYASAB",
+            "KAkSHAoFb3duZXIYAiABKAsyDS53YWxsZXQuT3duZXISDwoHYmFsYW5jZRgD",
+            "IAEoARIjCgdjcnlwdG9zGAQgAygLMhIud2FsbGV0LkNyeXB0b1R5cGUicAoO",
+            "V2FsbGV0UmVzcG9uc2USCgoCaWQYASABKAkSHAoFb3duZXIYAiABKAsyDS53",
+            "YWxsZXQuT3duZXISDwoHYmFsYW5jZRgDIAEoARIjCgdjcnlwdG9zGAQgAygL",
+            "MhIud2FsbGV0LkNyeXB0b1R5cGUiHgoQR2V0V2FsbGV0UmVxdWVzdBIKCgJp",
+            "ZBgBIAEoCSI7ChFHZXRXYWxsZXRSZXNwb25zZRImCgZ3YWxsZXQYASABKAsy",
+            "Fi53YWxsZXQuV2FsbGV0UmVzcG9uc2UiPAoTQ3JlYXRlV2FsbGV0UmVxdWVz",
+            "dBIlCgZ3YWxsZXQYASABKAsyFS53YWxsZXQuV2FsbGV0UmVxdWVzdCI+ChRD",
+            "cmVhdGVXYWxsZXRSZXNwb25zZRImCgZ3YWxsZXQYASABKAsyFi53YWxsZXQu",
+            "V2FsbGV0UmVzcG9uc2UylQEKBldhbGxldBJACglHZXRXYWxsZXQSGC53YWxs",
+            "ZXQuR2V0V2FsbGV0UmVxdWVzdBoZLndhbGxldC5HZXRXYWxsZXRSZXNwb25z",
+            "ZRJJCgxDcmVhdGVXYWxsZXQSGy53YWxsZXQuQ3JlYXRlV2FsbGV0UmVxdWVz",
+            "dBocLndhbGxldC5DcmVhdGVXYWxsZXRSZXNwb25zZUIJqgIGQ3J5cHRvYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.Owner), global::Crypto.Owner.Parser, new[]{ "Id", "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.CryptoType), global::Crypto.CryptoType.Parser, new[]{ "Id", "Name", "CurrencyValue" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.CryptoType), global::Crypto.CryptoType.Parser, new[]{ "Id", "Name", "CurrencyValue", "Amount" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.WalletRequest), global::Crypto.WalletRequest.Parser, new[]{ "Id", "Owner", "Balance", "Cryptos" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.WalletResponse), global::Crypto.WalletResponse.Parser, new[]{ "Id", "Owner", "Balance", "Cryptos" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.GetWalletRequest), global::Crypto.GetWalletRequest.Parser, new[]{ "Id" }, null, null, null, null),
@@ -107,9 +108,6 @@ namespace Crypto {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private string id_ = "";
-    /// <summary>
-    /// Representando Guid como string
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
@@ -326,6 +324,7 @@ namespace Crypto {
       id_ = other.id_;
       name_ = other.name_;
       currencyValue_ = other.currencyValue_;
+      amount_ = other.amount_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -338,9 +337,6 @@ namespace Crypto {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private string id_ = "";
-    /// <summary>
-    /// Representando Guid como string
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
@@ -374,6 +370,18 @@ namespace Crypto {
       }
     }
 
+    /// <summary>Field number for the "amount" field.</summary>
+    public const int AmountFieldNumber = 4;
+    private string amount_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Amount {
+      get { return amount_; }
+      set {
+        amount_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -392,6 +400,7 @@ namespace Crypto {
       if (Id != other.Id) return false;
       if (Name != other.Name) return false;
       if (CurrencyValue != other.CurrencyValue) return false;
+      if (Amount != other.Amount) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -402,6 +411,7 @@ namespace Crypto {
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (CurrencyValue.Length != 0) hash ^= CurrencyValue.GetHashCode();
+      if (Amount.Length != 0) hash ^= Amount.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -432,6 +442,10 @@ namespace Crypto {
         output.WriteRawTag(26);
         output.WriteString(CurrencyValue);
       }
+      if (Amount.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Amount);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -454,6 +468,10 @@ namespace Crypto {
         output.WriteRawTag(26);
         output.WriteString(CurrencyValue);
       }
+      if (Amount.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Amount);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -472,6 +490,9 @@ namespace Crypto {
       }
       if (CurrencyValue.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(CurrencyValue);
+      }
+      if (Amount.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Amount);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -493,6 +514,9 @@ namespace Crypto {
       }
       if (other.CurrencyValue.Length != 0) {
         CurrencyValue = other.CurrencyValue;
+      }
+      if (other.Amount.Length != 0) {
+        Amount = other.Amount;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -521,6 +545,10 @@ namespace Crypto {
             CurrencyValue = input.ReadString();
             break;
           }
+          case 34: {
+            Amount = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -546,6 +574,10 @@ namespace Crypto {
           }
           case 26: {
             CurrencyValue = input.ReadString();
+            break;
+          }
+          case 34: {
+            Amount = input.ReadString();
             break;
           }
         }
@@ -606,9 +638,6 @@ namespace Crypto {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private string id_ = "";
-    /// <summary>
-    /// Representando Guid como string
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
@@ -908,9 +937,6 @@ namespace Crypto {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private string id_ = "";
-    /// <summary>
-    /// Representando Guid como string
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
