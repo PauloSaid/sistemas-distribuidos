@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "IxvHsdGk5HpPaa1D18yfwuA+klSQc6toFMRePhzSiCA=",
+  "Source": "HoroscopeServer",
+  "BasePath": "_content/HoroscopeServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
