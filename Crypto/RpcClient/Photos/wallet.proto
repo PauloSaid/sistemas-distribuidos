@@ -46,7 +46,21 @@ message CreateWalletResponse {
 	WalletResponse wallet = 1;
 }
 
+message AvailableCryptoType {
+    string id = 1;
+    string name = 2;
+    string currencyValue = 3;
+}
+
+message ListAvailableCryptoTypesRequest {
+}
+
+message ListAvailableCryptoTypesResponse {
+    repeated AvailableCryptoType cryptoTypes = 1;
+}
+
 service Wallet {
 	rpc GetWallet(GetWalletRequest) returns (GetWalletResponse);
 	rpc CreateWallet(CreateWalletRequest) returns (CreateWalletResponse);
+    rpc ListAvailableCryptoTypes(ListAvailableCryptoTypesRequest) returns (ListAvailableCryptoTypesResponse); // Novo método
 }

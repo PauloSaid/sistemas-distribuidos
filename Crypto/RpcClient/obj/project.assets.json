@@ -306,11 +306,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DevC\\Crypto\\RpcClient\\RpcClient.csproj",
+      "projectUniqueName": "C:\\DevC\\RpcClient\\RpcClient.csproj",
       "projectName": "RpcClient",
-      "projectPath": "C:\\DevC\\Crypto\\RpcClient\\RpcClient.csproj",
+      "projectPath": "C:\\DevC\\RpcClient\\RpcClient.csproj",
       "packagesPath": "C:\\Users\\alunodev04\\.nuget\\packages\\",
-      "outputPath": "C:\\DevC\\Crypto\\RpcClient\\obj\\",
+      "outputPath": "C:\\DevC\\RpcClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

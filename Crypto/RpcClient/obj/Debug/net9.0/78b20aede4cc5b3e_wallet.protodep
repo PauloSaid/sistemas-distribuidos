@@ -1,0 +1,2 @@
+obj\Debug\net9.0/Wallet.cs \
+obj\Debug\net9.0/WalletGrpc.cs: C:/DevC/Crypto/src/Infra/Protos/wallet.proto

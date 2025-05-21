@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "Crypto\\Crypto.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "RpcClient\\RpcClient.csproj",
+        "Action": "Start",
+        "DebugTarget": "RpcClient"
+      }
+    ]
+  }
+]
