@@ -53,6 +53,10 @@ namespace Crypto {
     static readonly grpc::Marshaller<global::Crypto.CreateWalletRequest> __Marshaller_wallet_CreateWalletRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.CreateWalletRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Crypto.CreateWalletResponse> __Marshaller_wallet_CreateWalletResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.CreateWalletResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.ListAvailableCryptoTypesRequest> __Marshaller_wallet_ListAvailableCryptoTypesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.ListAvailableCryptoTypesRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.ListAvailableCryptoTypesResponse> __Marshaller_wallet_ListAvailableCryptoTypesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.ListAvailableCryptoTypesResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Crypto.GetWalletRequest, global::Crypto.GetWalletResponse> __Method_GetWallet = new grpc::Method<global::Crypto.GetWalletRequest, global::Crypto.GetWalletResponse>(
@@ -69,6 +73,14 @@ namespace Crypto {
         "CreateWallet",
         __Marshaller_wallet_CreateWalletRequest,
         __Marshaller_wallet_CreateWalletResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Crypto.ListAvailableCryptoTypesRequest, global::Crypto.ListAvailableCryptoTypesResponse> __Method_ListAvailableCryptoTypes = new grpc::Method<global::Crypto.ListAvailableCryptoTypesRequest, global::Crypto.ListAvailableCryptoTypesResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListAvailableCryptoTypes",
+        __Marshaller_wallet_ListAvailableCryptoTypesRequest,
+        __Marshaller_wallet_ListAvailableCryptoTypesResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -92,6 +104,18 @@ namespace Crypto {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      /// <summary>
+      /// Novo método
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Crypto.ListAvailableCryptoTypesResponse> ListAvailableCryptoTypes(global::Crypto.ListAvailableCryptoTypesRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
     }
 
     /// <summary>Creates service definition that can be registered with a server</summary>
@@ -101,7 +125,8 @@ namespace Crypto {
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_GetWallet, serviceImpl.GetWallet)
-          .AddMethod(__Method_CreateWallet, serviceImpl.CreateWallet).Build();
+          .AddMethod(__Method_CreateWallet, serviceImpl.CreateWallet)
+          .AddMethod(__Method_ListAvailableCryptoTypes, serviceImpl.ListAvailableCryptoTypes).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -113,6 +138,7 @@ namespace Crypto {
     {
       serviceBinder.AddMethod(__Method_GetWallet, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Crypto.GetWalletRequest, global::Crypto.GetWalletResponse>(serviceImpl.GetWallet));
       serviceBinder.AddMethod(__Method_CreateWallet, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Crypto.CreateWalletRequest, global::Crypto.CreateWalletResponse>(serviceImpl.CreateWallet));
+      serviceBinder.AddMethod(__Method_ListAvailableCryptoTypes, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Crypto.ListAvailableCryptoTypesRequest, global::Crypto.ListAvailableCryptoTypesResponse>(serviceImpl.ListAvailableCryptoTypes));
     }
 
   }
