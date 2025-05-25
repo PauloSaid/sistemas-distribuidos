@@ -41,13 +41,29 @@ namespace Crypto {
             "IAEoCRIMCgRuYW1lGAIgASgJEhUKDWN1cnJlbmN5VmFsdWUYAyABKAkiIQof",
             "TGlzdEF2YWlsYWJsZUNyeXB0b1R5cGVzUmVxdWVzdCJUCiBMaXN0QXZhaWxh",
             "YmxlQ3J5cHRvVHlwZXNSZXNwb25zZRIwCgtjcnlwdG9UeXBlcxgBIAMoCzIb",
-            "LndhbGxldC5BdmFpbGFibGVDcnlwdG9UeXBlMoQCCgZXYWxsZXQSQAoJR2V0",
-            "V2FsbGV0Ehgud2FsbGV0LkdldFdhbGxldFJlcXVlc3QaGS53YWxsZXQuR2V0",
-            "V2FsbGV0UmVzcG9uc2USSQoMQ3JlYXRlV2FsbGV0Ehsud2FsbGV0LkNyZWF0",
-            "ZVdhbGxldFJlcXVlc3QaHC53YWxsZXQuQ3JlYXRlV2FsbGV0UmVzcG9uc2US",
-            "bQoYTGlzdEF2YWlsYWJsZUNyeXB0b1R5cGVzEicud2FsbGV0Lkxpc3RBdmFp",
-            "bGFibGVDcnlwdG9UeXBlc1JlcXVlc3QaKC53YWxsZXQuTGlzdEF2YWlsYWJs",
-            "ZUNyeXB0b1R5cGVzUmVzcG9uc2VCCaoCBkNyeXB0b2IGcHJvdG8z"));
+            "LndhbGxldC5BdmFpbGFibGVDcnlwdG9UeXBlImwKE1VwZGF0ZUNyeXB0b1Jl",
+            "cXVlc3QSEAoId2FsbGV0SWQYASABKAkSKAoMY3J5cHRvc1RvQWRkGAIgAygL",
+            "MhIud2FsbGV0LkNyeXB0b1R5cGUSGQoRY3J5cHRvSWRzVG9SZW1vdmUYAyAD",
+            "KAkiPgoUVXBkYXRlQ3J5cHRvUmVzcG9uc2USJgoGd2FsbGV0GAEgASgLMhYu",
+            "d2FsbGV0LldhbGxldFJlc3BvbnNlImMKFVRyYW5zZmVyQ3J5cHRvUmVxdWVz",
+            "dBIUCgxmcm9tV2FsbGV0SWQYASABKAkSEgoKdG9XYWxsZXRJZBgCIAEoCRIQ",
+            "CghjcnlwdG9JZBgDIAEoCRIOCgZhbW91bnQYBCABKAkibgoWVHJhbnNmZXJD",
+            "cnlwdG9SZXNwb25zZRIqCgpmcm9tV2FsbGV0GAEgASgLMhYud2FsbGV0Lldh",
+            "bGxldFJlc3BvbnNlEigKCHRvV2FsbGV0GAIgASgLMhYud2FsbGV0LldhbGxl",
+            "dFJlc3BvbnNlIicKE0RlbGV0ZVdhbGxldFJlcXVlc3QSEAoId2FsbGV0SWQY",
+            "ASABKAkiJwoURGVsZXRlV2FsbGV0UmVzcG9uc2USDwoHc3VjY2VzcxgBIAEo",
+            "CDLrAwoGV2FsbGV0EkAKCUdldFdhbGxldBIYLndhbGxldC5HZXRXYWxsZXRS",
+            "ZXF1ZXN0Ghkud2FsbGV0LkdldFdhbGxldFJlc3BvbnNlEkkKDENyZWF0ZVdh",
+            "bGxldBIbLndhbGxldC5DcmVhdGVXYWxsZXRSZXF1ZXN0Ghwud2FsbGV0LkNy",
+            "ZWF0ZVdhbGxldFJlc3BvbnNlEm0KGExpc3RBdmFpbGFibGVDcnlwdG9UeXBl",
+            "cxInLndhbGxldC5MaXN0QXZhaWxhYmxlQ3J5cHRvVHlwZXNSZXF1ZXN0Gigu",
+            "d2FsbGV0Lkxpc3RBdmFpbGFibGVDcnlwdG9UeXBlc1Jlc3BvbnNlEkkKDFVw",
+            "ZGF0ZUNyeXB0bxIbLndhbGxldC5VcGRhdGVDcnlwdG9SZXF1ZXN0Ghwud2Fs",
+            "bGV0LlVwZGF0ZUNyeXB0b1Jlc3BvbnNlEk8KDlRyYW5zZmVyQ3J5cHRvEh0u",
+            "d2FsbGV0LlRyYW5zZmVyQ3J5cHRvUmVxdWVzdBoeLndhbGxldC5UcmFuc2Zl",
+            "ckNyeXB0b1Jlc3BvbnNlEkkKDERlbGV0ZVdhbGxldBIbLndhbGxldC5EZWxl",
+            "dGVXYWxsZXRSZXF1ZXN0Ghwud2FsbGV0LkRlbGV0ZVdhbGxldFJlc3BvbnNl",
+            "QgmqAgZDcnlwdG9iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -61,7 +77,13 @@ namespace Crypto {
             new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.CreateWalletResponse), global::Crypto.CreateWalletResponse.Parser, new[]{ "Wallet" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.AvailableCryptoType), global::Crypto.AvailableCryptoType.Parser, new[]{ "Id", "Name", "CurrencyValue" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.ListAvailableCryptoTypesRequest), global::Crypto.ListAvailableCryptoTypesRequest.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.ListAvailableCryptoTypesResponse), global::Crypto.ListAvailableCryptoTypesResponse.Parser, new[]{ "CryptoTypes" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.ListAvailableCryptoTypesResponse), global::Crypto.ListAvailableCryptoTypesResponse.Parser, new[]{ "CryptoTypes" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.UpdateCryptoRequest), global::Crypto.UpdateCryptoRequest.Parser, new[]{ "WalletId", "CryptosToAdd", "CryptoIdsToRemove" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.UpdateCryptoResponse), global::Crypto.UpdateCryptoResponse.Parser, new[]{ "Wallet" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.TransferCryptoRequest), global::Crypto.TransferCryptoRequest.Parser, new[]{ "FromWalletId", "ToWalletId", "CryptoId", "Amount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.TransferCryptoResponse), global::Crypto.TransferCryptoResponse.Parser, new[]{ "FromWallet", "ToWallet" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.DeleteWalletRequest), global::Crypto.DeleteWalletRequest.Parser, new[]{ "WalletId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Crypto.DeleteWalletResponse), global::Crypto.DeleteWalletResponse.Parser, new[]{ "Success" }, null, null, null, null)
           }));
     }
     #endregion
@@ -2568,6 +2590,1373 @@ namespace Crypto {
             break;
           case 10: {
             cryptoTypes_.AddEntriesFrom(ref input, _repeated_cryptoTypes_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class UpdateCryptoRequest : pb::IMessage<UpdateCryptoRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UpdateCryptoRequest> _parser = new pb::MessageParser<UpdateCryptoRequest>(() => new UpdateCryptoRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<UpdateCryptoRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Crypto.WalletReflection.Descriptor.MessageTypes[11]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateCryptoRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateCryptoRequest(UpdateCryptoRequest other) : this() {
+      walletId_ = other.walletId_;
+      cryptosToAdd_ = other.cryptosToAdd_.Clone();
+      cryptoIdsToRemove_ = other.cryptoIdsToRemove_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateCryptoRequest Clone() {
+      return new UpdateCryptoRequest(this);
+    }
+
+    /// <summary>Field number for the "walletId" field.</summary>
+    public const int WalletIdFieldNumber = 1;
+    private string walletId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string WalletId {
+      get { return walletId_; }
+      set {
+        walletId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "cryptosToAdd" field.</summary>
+    public const int CryptosToAddFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::Crypto.CryptoType> _repeated_cryptosToAdd_codec
+        = pb::FieldCodec.ForMessage(18, global::Crypto.CryptoType.Parser);
+    private readonly pbc::RepeatedField<global::Crypto.CryptoType> cryptosToAdd_ = new pbc::RepeatedField<global::Crypto.CryptoType>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Crypto.CryptoType> CryptosToAdd {
+      get { return cryptosToAdd_; }
+    }
+
+    /// <summary>Field number for the "cryptoIdsToRemove" field.</summary>
+    public const int CryptoIdsToRemoveFieldNumber = 3;
+    private static readonly pb::FieldCodec<string> _repeated_cryptoIdsToRemove_codec
+        = pb::FieldCodec.ForString(26);
+    private readonly pbc::RepeatedField<string> cryptoIdsToRemove_ = new pbc::RepeatedField<string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> CryptoIdsToRemove {
+      get { return cryptoIdsToRemove_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateCryptoRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(UpdateCryptoRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (WalletId != other.WalletId) return false;
+      if(!cryptosToAdd_.Equals(other.cryptosToAdd_)) return false;
+      if(!cryptoIdsToRemove_.Equals(other.cryptoIdsToRemove_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (WalletId.Length != 0) hash ^= WalletId.GetHashCode();
+      hash ^= cryptosToAdd_.GetHashCode();
+      hash ^= cryptoIdsToRemove_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (WalletId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(WalletId);
+      }
+      cryptosToAdd_.WriteTo(output, _repeated_cryptosToAdd_codec);
+      cryptoIdsToRemove_.WriteTo(output, _repeated_cryptoIdsToRemove_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (WalletId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(WalletId);
+      }
+      cryptosToAdd_.WriteTo(ref output, _repeated_cryptosToAdd_codec);
+      cryptoIdsToRemove_.WriteTo(ref output, _repeated_cryptoIdsToRemove_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (WalletId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(WalletId);
+      }
+      size += cryptosToAdd_.CalculateSize(_repeated_cryptosToAdd_codec);
+      size += cryptoIdsToRemove_.CalculateSize(_repeated_cryptoIdsToRemove_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(UpdateCryptoRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.WalletId.Length != 0) {
+        WalletId = other.WalletId;
+      }
+      cryptosToAdd_.Add(other.cryptosToAdd_);
+      cryptoIdsToRemove_.Add(other.cryptoIdsToRemove_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            WalletId = input.ReadString();
+            break;
+          }
+          case 18: {
+            cryptosToAdd_.AddEntriesFrom(input, _repeated_cryptosToAdd_codec);
+            break;
+          }
+          case 26: {
+            cryptoIdsToRemove_.AddEntriesFrom(input, _repeated_cryptoIdsToRemove_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            WalletId = input.ReadString();
+            break;
+          }
+          case 18: {
+            cryptosToAdd_.AddEntriesFrom(ref input, _repeated_cryptosToAdd_codec);
+            break;
+          }
+          case 26: {
+            cryptoIdsToRemove_.AddEntriesFrom(ref input, _repeated_cryptoIdsToRemove_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class UpdateCryptoResponse : pb::IMessage<UpdateCryptoResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UpdateCryptoResponse> _parser = new pb::MessageParser<UpdateCryptoResponse>(() => new UpdateCryptoResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<UpdateCryptoResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Crypto.WalletReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateCryptoResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateCryptoResponse(UpdateCryptoResponse other) : this() {
+      wallet_ = other.wallet_ != null ? other.wallet_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UpdateCryptoResponse Clone() {
+      return new UpdateCryptoResponse(this);
+    }
+
+    /// <summary>Field number for the "wallet" field.</summary>
+    public const int WalletFieldNumber = 1;
+    private global::Crypto.WalletResponse wallet_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Crypto.WalletResponse Wallet {
+      get { return wallet_; }
+      set {
+        wallet_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as UpdateCryptoResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(UpdateCryptoResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Wallet, other.Wallet)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (wallet_ != null) hash ^= Wallet.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (wallet_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Wallet);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (wallet_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Wallet);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (wallet_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Wallet);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(UpdateCryptoResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.wallet_ != null) {
+        if (wallet_ == null) {
+          Wallet = new global::Crypto.WalletResponse();
+        }
+        Wallet.MergeFrom(other.Wallet);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (wallet_ == null) {
+              Wallet = new global::Crypto.WalletResponse();
+            }
+            input.ReadMessage(Wallet);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (wallet_ == null) {
+              Wallet = new global::Crypto.WalletResponse();
+            }
+            input.ReadMessage(Wallet);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class TransferCryptoRequest : pb::IMessage<TransferCryptoRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<TransferCryptoRequest> _parser = new pb::MessageParser<TransferCryptoRequest>(() => new TransferCryptoRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<TransferCryptoRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Crypto.WalletReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TransferCryptoRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TransferCryptoRequest(TransferCryptoRequest other) : this() {
+      fromWalletId_ = other.fromWalletId_;
+      toWalletId_ = other.toWalletId_;
+      cryptoId_ = other.cryptoId_;
+      amount_ = other.amount_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TransferCryptoRequest Clone() {
+      return new TransferCryptoRequest(this);
+    }
+
+    /// <summary>Field number for the "fromWalletId" field.</summary>
+    public const int FromWalletIdFieldNumber = 1;
+    private string fromWalletId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string FromWalletId {
+      get { return fromWalletId_; }
+      set {
+        fromWalletId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "toWalletId" field.</summary>
+    public const int ToWalletIdFieldNumber = 2;
+    private string toWalletId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ToWalletId {
+      get { return toWalletId_; }
+      set {
+        toWalletId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "cryptoId" field.</summary>
+    public const int CryptoIdFieldNumber = 3;
+    private string cryptoId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string CryptoId {
+      get { return cryptoId_; }
+      set {
+        cryptoId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "amount" field.</summary>
+    public const int AmountFieldNumber = 4;
+    private string amount_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Amount {
+      get { return amount_; }
+      set {
+        amount_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as TransferCryptoRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(TransferCryptoRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (FromWalletId != other.FromWalletId) return false;
+      if (ToWalletId != other.ToWalletId) return false;
+      if (CryptoId != other.CryptoId) return false;
+      if (Amount != other.Amount) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (FromWalletId.Length != 0) hash ^= FromWalletId.GetHashCode();
+      if (ToWalletId.Length != 0) hash ^= ToWalletId.GetHashCode();
+      if (CryptoId.Length != 0) hash ^= CryptoId.GetHashCode();
+      if (Amount.Length != 0) hash ^= Amount.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (FromWalletId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(FromWalletId);
+      }
+      if (ToWalletId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ToWalletId);
+      }
+      if (CryptoId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(CryptoId);
+      }
+      if (Amount.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Amount);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (FromWalletId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(FromWalletId);
+      }
+      if (ToWalletId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ToWalletId);
+      }
+      if (CryptoId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(CryptoId);
+      }
+      if (Amount.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Amount);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (FromWalletId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(FromWalletId);
+      }
+      if (ToWalletId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ToWalletId);
+      }
+      if (CryptoId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CryptoId);
+      }
+      if (Amount.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Amount);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(TransferCryptoRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.FromWalletId.Length != 0) {
+        FromWalletId = other.FromWalletId;
+      }
+      if (other.ToWalletId.Length != 0) {
+        ToWalletId = other.ToWalletId;
+      }
+      if (other.CryptoId.Length != 0) {
+        CryptoId = other.CryptoId;
+      }
+      if (other.Amount.Length != 0) {
+        Amount = other.Amount;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            FromWalletId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ToWalletId = input.ReadString();
+            break;
+          }
+          case 26: {
+            CryptoId = input.ReadString();
+            break;
+          }
+          case 34: {
+            Amount = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            FromWalletId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ToWalletId = input.ReadString();
+            break;
+          }
+          case 26: {
+            CryptoId = input.ReadString();
+            break;
+          }
+          case 34: {
+            Amount = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class TransferCryptoResponse : pb::IMessage<TransferCryptoResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<TransferCryptoResponse> _parser = new pb::MessageParser<TransferCryptoResponse>(() => new TransferCryptoResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<TransferCryptoResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Crypto.WalletReflection.Descriptor.MessageTypes[14]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TransferCryptoResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TransferCryptoResponse(TransferCryptoResponse other) : this() {
+      fromWallet_ = other.fromWallet_ != null ? other.fromWallet_.Clone() : null;
+      toWallet_ = other.toWallet_ != null ? other.toWallet_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TransferCryptoResponse Clone() {
+      return new TransferCryptoResponse(this);
+    }
+
+    /// <summary>Field number for the "fromWallet" field.</summary>
+    public const int FromWalletFieldNumber = 1;
+    private global::Crypto.WalletResponse fromWallet_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Crypto.WalletResponse FromWallet {
+      get { return fromWallet_; }
+      set {
+        fromWallet_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "toWallet" field.</summary>
+    public const int ToWalletFieldNumber = 2;
+    private global::Crypto.WalletResponse toWallet_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Crypto.WalletResponse ToWallet {
+      get { return toWallet_; }
+      set {
+        toWallet_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as TransferCryptoResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(TransferCryptoResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(FromWallet, other.FromWallet)) return false;
+      if (!object.Equals(ToWallet, other.ToWallet)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (fromWallet_ != null) hash ^= FromWallet.GetHashCode();
+      if (toWallet_ != null) hash ^= ToWallet.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (fromWallet_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(FromWallet);
+      }
+      if (toWallet_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(ToWallet);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (fromWallet_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(FromWallet);
+      }
+      if (toWallet_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(ToWallet);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (fromWallet_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(FromWallet);
+      }
+      if (toWallet_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ToWallet);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(TransferCryptoResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.fromWallet_ != null) {
+        if (fromWallet_ == null) {
+          FromWallet = new global::Crypto.WalletResponse();
+        }
+        FromWallet.MergeFrom(other.FromWallet);
+      }
+      if (other.toWallet_ != null) {
+        if (toWallet_ == null) {
+          ToWallet = new global::Crypto.WalletResponse();
+        }
+        ToWallet.MergeFrom(other.ToWallet);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (fromWallet_ == null) {
+              FromWallet = new global::Crypto.WalletResponse();
+            }
+            input.ReadMessage(FromWallet);
+            break;
+          }
+          case 18: {
+            if (toWallet_ == null) {
+              ToWallet = new global::Crypto.WalletResponse();
+            }
+            input.ReadMessage(ToWallet);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (fromWallet_ == null) {
+              FromWallet = new global::Crypto.WalletResponse();
+            }
+            input.ReadMessage(FromWallet);
+            break;
+          }
+          case 18: {
+            if (toWallet_ == null) {
+              ToWallet = new global::Crypto.WalletResponse();
+            }
+            input.ReadMessage(ToWallet);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class DeleteWalletRequest : pb::IMessage<DeleteWalletRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<DeleteWalletRequest> _parser = new pb::MessageParser<DeleteWalletRequest>(() => new DeleteWalletRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<DeleteWalletRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Crypto.WalletReflection.Descriptor.MessageTypes[15]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DeleteWalletRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DeleteWalletRequest(DeleteWalletRequest other) : this() {
+      walletId_ = other.walletId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DeleteWalletRequest Clone() {
+      return new DeleteWalletRequest(this);
+    }
+
+    /// <summary>Field number for the "walletId" field.</summary>
+    public const int WalletIdFieldNumber = 1;
+    private string walletId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string WalletId {
+      get { return walletId_; }
+      set {
+        walletId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as DeleteWalletRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(DeleteWalletRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (WalletId != other.WalletId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (WalletId.Length != 0) hash ^= WalletId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (WalletId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(WalletId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (WalletId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(WalletId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (WalletId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(WalletId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(DeleteWalletRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.WalletId.Length != 0) {
+        WalletId = other.WalletId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            WalletId = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            WalletId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class DeleteWalletResponse : pb::IMessage<DeleteWalletResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<DeleteWalletResponse> _parser = new pb::MessageParser<DeleteWalletResponse>(() => new DeleteWalletResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<DeleteWalletResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Crypto.WalletReflection.Descriptor.MessageTypes[16]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DeleteWalletResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DeleteWalletResponse(DeleteWalletResponse other) : this() {
+      success_ = other.success_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public DeleteWalletResponse Clone() {
+      return new DeleteWalletResponse(this);
+    }
+
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 1;
+    private bool success_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as DeleteWalletResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(DeleteWalletResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Success != other.Success) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Success != false) hash ^= Success.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Success != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Success);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Success != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Success);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Success != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(DeleteWalletResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Success = input.ReadBool();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Success = input.ReadBool();
             break;
           }
         }

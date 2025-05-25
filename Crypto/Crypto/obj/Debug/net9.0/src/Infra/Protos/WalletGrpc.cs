@@ -57,6 +57,18 @@ namespace Crypto {
     static readonly grpc::Marshaller<global::Crypto.ListAvailableCryptoTypesRequest> __Marshaller_wallet_ListAvailableCryptoTypesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.ListAvailableCryptoTypesRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Crypto.ListAvailableCryptoTypesResponse> __Marshaller_wallet_ListAvailableCryptoTypesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.ListAvailableCryptoTypesResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.UpdateCryptoRequest> __Marshaller_wallet_UpdateCryptoRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.UpdateCryptoRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.UpdateCryptoResponse> __Marshaller_wallet_UpdateCryptoResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.UpdateCryptoResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.TransferCryptoRequest> __Marshaller_wallet_TransferCryptoRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.TransferCryptoRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.TransferCryptoResponse> __Marshaller_wallet_TransferCryptoResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.TransferCryptoResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.DeleteWalletRequest> __Marshaller_wallet_DeleteWalletRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.DeleteWalletRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.DeleteWalletResponse> __Marshaller_wallet_DeleteWalletResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.DeleteWalletResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Crypto.GetWalletRequest, global::Crypto.GetWalletResponse> __Method_GetWallet = new grpc::Method<global::Crypto.GetWalletRequest, global::Crypto.GetWalletResponse>(
@@ -82,6 +94,30 @@ namespace Crypto {
         __Marshaller_wallet_ListAvailableCryptoTypesRequest,
         __Marshaller_wallet_ListAvailableCryptoTypesResponse);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Crypto.UpdateCryptoRequest, global::Crypto.UpdateCryptoResponse> __Method_UpdateCrypto = new grpc::Method<global::Crypto.UpdateCryptoRequest, global::Crypto.UpdateCryptoResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateCrypto",
+        __Marshaller_wallet_UpdateCryptoRequest,
+        __Marshaller_wallet_UpdateCryptoResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Crypto.TransferCryptoRequest, global::Crypto.TransferCryptoResponse> __Method_TransferCrypto = new grpc::Method<global::Crypto.TransferCryptoRequest, global::Crypto.TransferCryptoResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "TransferCrypto",
+        __Marshaller_wallet_TransferCryptoRequest,
+        __Marshaller_wallet_TransferCryptoResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Crypto.DeleteWalletRequest, global::Crypto.DeleteWalletResponse> __Method_DeleteWallet = new grpc::Method<global::Crypto.DeleteWalletRequest, global::Crypto.DeleteWalletResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteWallet",
+        __Marshaller_wallet_DeleteWalletRequest,
+        __Marshaller_wallet_DeleteWalletResponse);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -104,14 +140,26 @@ namespace Crypto {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      /// <summary>
-      /// Novo método
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::Crypto.ListAvailableCryptoTypesResponse> ListAvailableCryptoTypes(global::Crypto.ListAvailableCryptoTypesRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Crypto.UpdateCryptoResponse> UpdateCrypto(global::Crypto.UpdateCryptoRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Crypto.TransferCryptoResponse> TransferCrypto(global::Crypto.TransferCryptoRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Crypto.DeleteWalletResponse> DeleteWallet(global::Crypto.DeleteWalletRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -126,7 +174,10 @@ namespace Crypto {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_GetWallet, serviceImpl.GetWallet)
           .AddMethod(__Method_CreateWallet, serviceImpl.CreateWallet)
-          .AddMethod(__Method_ListAvailableCryptoTypes, serviceImpl.ListAvailableCryptoTypes).Build();
+          .AddMethod(__Method_ListAvailableCryptoTypes, serviceImpl.ListAvailableCryptoTypes)
+          .AddMethod(__Method_UpdateCrypto, serviceImpl.UpdateCrypto)
+          .AddMethod(__Method_TransferCrypto, serviceImpl.TransferCrypto)
+          .AddMethod(__Method_DeleteWallet, serviceImpl.DeleteWallet).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -139,6 +190,9 @@ namespace Crypto {
       serviceBinder.AddMethod(__Method_GetWallet, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Crypto.GetWalletRequest, global::Crypto.GetWalletResponse>(serviceImpl.GetWallet));
       serviceBinder.AddMethod(__Method_CreateWallet, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Crypto.CreateWalletRequest, global::Crypto.CreateWalletResponse>(serviceImpl.CreateWallet));
       serviceBinder.AddMethod(__Method_ListAvailableCryptoTypes, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Crypto.ListAvailableCryptoTypesRequest, global::Crypto.ListAvailableCryptoTypesResponse>(serviceImpl.ListAvailableCryptoTypes));
+      serviceBinder.AddMethod(__Method_UpdateCrypto, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Crypto.UpdateCryptoRequest, global::Crypto.UpdateCryptoResponse>(serviceImpl.UpdateCrypto));
+      serviceBinder.AddMethod(__Method_TransferCrypto, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Crypto.TransferCryptoRequest, global::Crypto.TransferCryptoResponse>(serviceImpl.TransferCrypto));
+      serviceBinder.AddMethod(__Method_DeleteWallet, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Crypto.DeleteWalletRequest, global::Crypto.DeleteWalletResponse>(serviceImpl.DeleteWallet));
     }
 
   }

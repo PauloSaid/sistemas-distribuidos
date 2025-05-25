@@ -59,8 +59,41 @@ message ListAvailableCryptoTypesResponse {
     repeated AvailableCryptoType cryptoTypes = 1;
 }
 
+message UpdateCryptoRequest {
+	string walletId = 1;
+	repeated CryptoType cryptosToAdd = 2;
+	repeated string cryptoIdsToRemove = 3;
+}
+
+message UpdateCryptoResponse {
+	WalletResponse wallet = 1;
+}
+
+message TransferCryptoRequest {
+	string fromWalletId = 1;
+	string toWalletId = 2;
+	string cryptoId = 3;
+	string amount = 4;
+}
+
+message TransferCryptoResponse {
+	WalletResponse fromWallet = 1;
+	WalletResponse toWallet = 2;
+}
+
+message DeleteWalletRequest {
+	string walletId = 1;
+}
+
+message DeleteWalletResponse {
+	bool success = 1;
+}
+
 service Wallet {
 	rpc GetWallet(GetWalletRequest) returns (GetWalletResponse);
 	rpc CreateWallet(CreateWalletRequest) returns (CreateWalletResponse);
-    rpc ListAvailableCryptoTypes(ListAvailableCryptoTypesRequest) returns (ListAvailableCryptoTypesResponse); // Novo método
+	rpc ListAvailableCryptoTypes(ListAvailableCryptoTypesRequest) returns (ListAvailableCryptoTypesResponse);
+	rpc UpdateCrypto(UpdateCryptoRequest) returns (UpdateCryptoResponse);
+	rpc TransferCrypto(TransferCryptoRequest) returns (TransferCryptoResponse);
+	rpc DeleteWallet(DeleteWalletRequest) returns (DeleteWalletResponse);
 }

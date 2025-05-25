@@ -57,6 +57,18 @@ namespace Crypto {
     static readonly grpc::Marshaller<global::Crypto.ListAvailableCryptoTypesRequest> __Marshaller_wallet_ListAvailableCryptoTypesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.ListAvailableCryptoTypesRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Crypto.ListAvailableCryptoTypesResponse> __Marshaller_wallet_ListAvailableCryptoTypesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.ListAvailableCryptoTypesResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.UpdateCryptoRequest> __Marshaller_wallet_UpdateCryptoRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.UpdateCryptoRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.UpdateCryptoResponse> __Marshaller_wallet_UpdateCryptoResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.UpdateCryptoResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.TransferCryptoRequest> __Marshaller_wallet_TransferCryptoRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.TransferCryptoRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.TransferCryptoResponse> __Marshaller_wallet_TransferCryptoResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.TransferCryptoResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.DeleteWalletRequest> __Marshaller_wallet_DeleteWalletRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.DeleteWalletRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Crypto.DeleteWalletResponse> __Marshaller_wallet_DeleteWalletResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Crypto.DeleteWalletResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Crypto.GetWalletRequest, global::Crypto.GetWalletResponse> __Method_GetWallet = new grpc::Method<global::Crypto.GetWalletRequest, global::Crypto.GetWalletResponse>(
@@ -81,6 +93,30 @@ namespace Crypto {
         "ListAvailableCryptoTypes",
         __Marshaller_wallet_ListAvailableCryptoTypesRequest,
         __Marshaller_wallet_ListAvailableCryptoTypesResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Crypto.UpdateCryptoRequest, global::Crypto.UpdateCryptoResponse> __Method_UpdateCrypto = new grpc::Method<global::Crypto.UpdateCryptoRequest, global::Crypto.UpdateCryptoResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateCrypto",
+        __Marshaller_wallet_UpdateCryptoRequest,
+        __Marshaller_wallet_UpdateCryptoResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Crypto.TransferCryptoRequest, global::Crypto.TransferCryptoResponse> __Method_TransferCrypto = new grpc::Method<global::Crypto.TransferCryptoRequest, global::Crypto.TransferCryptoResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "TransferCrypto",
+        __Marshaller_wallet_TransferCryptoRequest,
+        __Marshaller_wallet_TransferCryptoResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Crypto.DeleteWalletRequest, global::Crypto.DeleteWalletResponse> __Method_DeleteWallet = new grpc::Method<global::Crypto.DeleteWalletRequest, global::Crypto.DeleteWalletResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteWallet",
+        __Marshaller_wallet_DeleteWalletRequest,
+        __Marshaller_wallet_DeleteWalletResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -155,53 +191,85 @@ namespace Crypto {
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateWallet, null, options, request);
       }
-      /// <summary>
-      /// Novo método
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Crypto.ListAvailableCryptoTypesResponse ListAvailableCryptoTypes(global::Crypto.ListAvailableCryptoTypesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListAvailableCryptoTypes(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      /// <summary>
-      /// Novo método
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Crypto.ListAvailableCryptoTypesResponse ListAvailableCryptoTypes(global::Crypto.ListAvailableCryptoTypesRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ListAvailableCryptoTypes, null, options, request);
       }
-      /// <summary>
-      /// Novo método
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Crypto.ListAvailableCryptoTypesResponse> ListAvailableCryptoTypesAsync(global::Crypto.ListAvailableCryptoTypesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListAvailableCryptoTypesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      /// <summary>
-      /// Novo método
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Crypto.ListAvailableCryptoTypesResponse> ListAvailableCryptoTypesAsync(global::Crypto.ListAvailableCryptoTypesRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ListAvailableCryptoTypes, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Crypto.UpdateCryptoResponse UpdateCrypto(global::Crypto.UpdateCryptoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateCrypto(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Crypto.UpdateCryptoResponse UpdateCrypto(global::Crypto.UpdateCryptoRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateCrypto, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Crypto.UpdateCryptoResponse> UpdateCryptoAsync(global::Crypto.UpdateCryptoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateCryptoAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Crypto.UpdateCryptoResponse> UpdateCryptoAsync(global::Crypto.UpdateCryptoRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateCrypto, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Crypto.TransferCryptoResponse TransferCrypto(global::Crypto.TransferCryptoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return TransferCrypto(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Crypto.TransferCryptoResponse TransferCrypto(global::Crypto.TransferCryptoRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_TransferCrypto, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Crypto.TransferCryptoResponse> TransferCryptoAsync(global::Crypto.TransferCryptoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return TransferCryptoAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Crypto.TransferCryptoResponse> TransferCryptoAsync(global::Crypto.TransferCryptoRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_TransferCrypto, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Crypto.DeleteWalletResponse DeleteWallet(global::Crypto.DeleteWalletRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteWallet(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Crypto.DeleteWalletResponse DeleteWallet(global::Crypto.DeleteWalletRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteWallet, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Crypto.DeleteWalletResponse> DeleteWalletAsync(global::Crypto.DeleteWalletRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteWalletAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Crypto.DeleteWalletResponse> DeleteWalletAsync(global::Crypto.DeleteWalletRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteWallet, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

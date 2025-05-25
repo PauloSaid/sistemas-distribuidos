@@ -14,7 +14,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-	  <Protobuf Include="C:\DevC\Crypto\src\Infra\Protos\wallet.proto" GrpcServices="Client" />
+	  <Protobuf Include="C:\Users\paulo\Source\Repos\sistemas-distribuidos\Crypto\Crypto\src\Infra\Protos\wallet.proto" GrpcServices="Client" />
   </ItemGroup>
 
 </Project>

@@ -794,23 +794,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alunodev04\\.nuget\\packages\\": {},
+    "C:\\Users\\paulo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DevC\\Crypto\\Crypto.csproj",
+      "projectUniqueName": "C:\\Users\\paulo\\Source\\Repos\\sistemas-distribuidos\\Crypto\\Crypto\\Crypto.csproj",
       "projectName": "Crypto",
-      "projectPath": "C:\\DevC\\Crypto\\Crypto.csproj",
-      "packagesPath": "C:\\Users\\alunodev04\\.nuget\\packages\\",
-      "outputPath": "C:\\DevC\\Crypto\\obj\\",
+      "projectPath": "C:\\Users\\paulo\\Source\\Repos\\sistemas-distribuidos\\Crypto\\Crypto\\Crypto.csproj",
+      "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paulo\\Source\\Repos\\sistemas-distribuidos\\Crypto\\Crypto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\alunodev04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -819,7 +819,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
